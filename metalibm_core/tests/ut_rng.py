@@ -38,9 +38,6 @@ from sollya import Interval
 from metalibm_core.core.random_gen import UniformInterval
 from metalibm_core.utility.ml_template import rng_mode_list_parser
 
-from metalibm_core.core.random_gen import UniformInterval
-from metalibm_core.utility.ml_template import rng_mode_list_parser
-
 class UT_RNG(unittest.TestCase):
     def test_ref_assign(self):
         """ test behavior of StaticVectorizer on predicated ReferenceAssign """
